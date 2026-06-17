@@ -178,7 +178,7 @@ export default function SpeakerPage() {
                   {/* @ts-ignore */}
                   <Avatar 
                     src={s.avatar} 
-                    alt={s.name} 
+                    alt={""} 
                     className="h-[240px] w-[240px] rounded-3xl border-4 border-gray-100 shadow-xl"
                   />
                 </div>
@@ -186,11 +186,11 @@ export default function SpeakerPage() {
                 {/* name & info */}
                 <div>
                   {/* @ts-ignore */}
-                  <Typography variant="h1" color="blue-gray" className="mb-1 text-5xl font-extrabold tracking-tighter">
+                  <Typography variant="h2" color="blue-gray" className="mb-1 text-5xl font-extrabold tracking-tighter">
                     {s.name}
                   </Typography>
                   {/* @ts-ignore */}
-                  <Typography className="text-gray-700 text-lg font-medium mb-10 pb-4 border-b border-gray-100">
+                  <Typography className="text-gray-700 text-2xl font-medium mb-10 pb-4 border-b border-gray-100">
                     {s.affiliation}
                   </Typography>
 
